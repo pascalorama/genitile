@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: out_asm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Synesis\LOCALS~1\Temp\RSPBF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/out_asm.pdb" /machine:I386 /out:"../out_asm.dll" /implib:"Release/out_asm.lib" 
+.\Release\out_asm.obj
+.\Release\mdtt.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Synesis\LOCALS~1\Temp\RSPBF.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library Release/out_asm.lib and object Release/out_asm.exp
+mdtt.obj : error LNK2001: unresolved external symbol "public: int __thiscall tgOutputPlugin::GetOutputType(void)" (?GetOutputType@tgOutputPlugin@@QAEHXZ)
+mdtt.obj : error LNK2001: unresolved external symbol "void __cdecl remove_car(char *,char)" (?remove_car@@YAXPADD@Z)
+mdtt.obj : error LNK2001: unresolved external symbol "public: char * __thiscall tgOutputPlugin::GetID(void)" (?GetID@tgOutputPlugin@@QAEPADXZ)
+mdtt.obj : error LNK2001: unresolved external symbol "public: class tgOutputPlugin * __thiscall tgApp::GetOutputWriter(void)" (?GetOutputWriter@tgApp@@QAEPAVtgOutputPlugin@@XZ)
+mdtt.obj : error LNK2001: unresolved external symbol "public: int __thiscall tgApp::IsOutputSupported(char *)" (?IsOutputSupported@tgApp@@QAEHPAD@Z)
+mdtt.obj : error LNK2001: unresolved external symbol "public: int __thiscall tgApp::GetPictureData(unsigned char *,struct tgColor *)" (?GetPictureData@tgApp@@QAEHPAEPAUtgColor@@@Z)
+mdtt.obj : error LNK2001: unresolved external symbol "public: int __thiscall tgApp::GetPictureInfo(char const *,struct tgPictureInfo *)" (?GetPictureInfo@tgApp@@QAEHPBDPAUtgPictureInfo@@@Z)
+mdtt.obj : error LNK2001: unresolved external symbol "public: int __thiscall tgApp::IsImgLoadingSupported(char *)" (?IsImgLoadingSupported@tgApp@@QAEHPAD@Z)
+mdtt.obj : error LNK2001: unresolved external symbol "public: int __thiscall tgOutputPlugin::OutputPicture(char const *,struct tgPictureInfo *,unsigned char *,struct tgColor *)" (?OutputPicture@tgOutputPlugin@@QAEHPBDPAUtgPictureInfo@@PAEPAUtgColor@@@Z)
+mdtt.obj : error LNK2001: unresolved external symbol "public: char * __thiscall tgOutputPlugin::GetExt(void)" (?GetExt@tgOutputPlugin@@QAEPADXZ)
+mdtt.obj : error LNK2001: unresolved external symbol "public: int __thiscall tgOutputPlugin::OutputData(char const *,char const *,int,unsigned char *,int)" (?OutputData@tgOutputPlugin@@QAEHPBD0HPAEH@Z)
+mdtt.obj : error LNK2001: unresolved external symbol "public: __thiscall tgApp::~tgApp(void)" (??1tgApp@@QAE@XZ)
+mdtt.obj : error LNK2001: unresolved external symbol "public: int __thiscall tgApp::LoadPlugins(char *)" (?LoadPlugins@tgApp@@QAEHPAD@Z)
+mdtt.obj : error LNK2001: unresolved external symbol "public: __thiscall tgApp::tgApp(char const *)" (??0tgApp@@QAE@PBD@Z)
+../out_asm.dll : fatal error LNK1120: 14 unresolved externals
+Error executing link.exe.
+Creating command line "bscmake.exe /nologo /o"Release/out_asm.bsc"  .\Release\out_asm.sbr .\Release\mdtt.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+out_asm.dll - 15 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

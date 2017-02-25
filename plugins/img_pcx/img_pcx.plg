@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: img_pcx - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Pascal\LOCALS~1\Temp\RSP4D5.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "IMG_PCX_EXPORTS" /Fp"Release/img_pcx.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\sources\mdtt\plugins\img_pcx\img_pcx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Pascal\LOCALS~1\Temp\RSP4D5.tmp" 
+Creating temporary file "C:\DOCUME~1\Pascal\LOCALS~1\Temp\RSP4D6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/img_pcx.pdb" /machine:I386 /out:"../img_pcx.dll" /implib:"Release/img_pcx.lib" 
+.\Release\img_pcx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Pascal\LOCALS~1\Temp\RSP4D6.tmp"
+<h3>Output Window</h3>
+Compiling...
+img_pcx.cpp
+Linking...
+   Creating library Release/img_pcx.lib and object Release/img_pcx.exp
+
+
+
+<h3>Results</h3>
+img_pcx.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

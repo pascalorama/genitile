@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: out_asmgcc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Pascal\LOCALS~1\Temp\RSP59.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "OUT_ASMGCC_EXPORTS" /Fp"Release/out_asmgcc.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\sources\mdtt\PLUGINS\out_asmgcc\out_asmgcc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Pascal\LOCALS~1\Temp\RSP59.tmp" 
+Creating temporary file "C:\DOCUME~1\Pascal\LOCALS~1\Temp\RSP5A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/out_asgcc.pdb" /machine:I386 /out:"../out_asgcc.dll" /implib:"Release/out_asgcc.lib" 
+.\Release\out_asmgcc.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Pascal\LOCALS~1\Temp\RSP5A.tmp"
+<h3>Output Window</h3>
+Compiling...
+out_asmgcc.cpp
+Linking...
+   Creating library Release/out_asgcc.lib and object Release/out_asgcc.exp
+
+
+
+<h3>Results</h3>
+out_asgcc.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
